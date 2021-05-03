@@ -1,0 +1,52 @@
+* {
+  color: #1f84bf;  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.queue-area {
+  width: 390px;
+  margin: 20px;
+  padding: 2px;
+  border: 3px #00b9ffd4 outset;
+  border-radius: 10px;
+}
+
+.queue-area > p {
+  display: flex;
+  justify-content: center;
+}
+
+form > * {
+  background-color: transparent;
+  margin: 4px;
+  padding: 8px;
+  border: 2px #00b9ffd4 outset;
+  border-radius: 50px;
+}
+
+.item {
+  margin: 20px 40px;
+  padding: 4px;
+  border-bottom: 1px solid rgb(67, 148, 202);
+}
+
+.btn {
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 255, 0.027);
+}
+
+.btn:active {
+  transform: scale(.95);
+  transition: all .1s ease-in-out;
+}
+
